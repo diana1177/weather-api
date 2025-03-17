@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: weather-data-collector
+client:
+  open-meteo:
+    url: https://api.open-meteo.com/
+
+warsaw:
+  latitude: 52.52
+  longitude: 13.405

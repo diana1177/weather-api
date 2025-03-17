@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: weather-alerts-sender
+  mail:
+    host: ${MAIL_HOST}
+    port: ${MAIL_PORT}
+    username: ${MAIL_USERNAME}
+    password: ${MAIL_PASSWORD}
+
+server:
+  port: 8082
+alert:
+  recipient:
+    email: ${MAIL_RECIPIENT}
